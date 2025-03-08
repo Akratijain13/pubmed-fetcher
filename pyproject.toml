@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "backend-project"
+version = "0.1.0"
+description = "Fetch research papers from PubMed API and save as CSV"
+authors = ["Akratijain13 <akratijain101203@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "backend_project"}]
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+requests = "^2.32.3"
+pandas = "^2.2.3"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
